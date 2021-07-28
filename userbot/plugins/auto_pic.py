@@ -17,13 +17,11 @@ from time import sleep
 
 COLLECTION_STRING = [
 
-  "indian-actress-wallpapers",
+  "one-punch-man-hd-wallpaper",
 
   "latest-bollywood-actress-wallpapers-2018-hd",
 
-  "bollywood-actress-wallpaper",
-
-  "hd-wallpapers-of-bollywood-actress",
+ 
 
   "new-bollywood-actress-wallpaper-2018"
 
