@@ -19,13 +19,9 @@ COLLECTION_STRING = [
 
   "one-punch-man-hd-wallpaper",
 
-  "latest-bollywood-actress-wallpapers-2018-hd",
+  "madara-uchiha-wallpaper-hd",
 
- 
-
-  "new-bollywood-actress-wallpaper-2018"
-
-]
+ ]
 
 async def actresspp():
 
