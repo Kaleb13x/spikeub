@@ -15,14 +15,8 @@ from userbot.utils import admin_cmd, sudo_cmd
 from userbot import ALIVE_NAME, Lastupdate
 from . import dcdef
 from telethon.tl.types import ChannelParticipantsAdmins
-# 🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "DARK COBRA"
 
-# Thanks to Sipak bro and Aryan.. 
-# animation Idea by @ItzSipak && @Hell boy_pikachu
-# Made by @hellboi_atul ....and thanks to @Crackexy for the logos...
-# Kang with credits else gay...
-# alive.py for DC(DARK COBRA)
 global ghanti
 ghanti = borg.uid
 edit_time = 5
@@ -48,7 +42,7 @@ async def hmm(yes):
     pm_caption += "✘ My System ✘\n\n"
     pm_caption += f"➾ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ** ☞ {version.__version__}\n"
     pm_caption += ""
-    pm_caption += "➾ **ʟɪᴄᴇɴꜱᴇ**  ☞ GitHub repositoryhttps://github.com/kaleb13x)\n"
+    pm_caption += "➾ **ʟɪᴄᴇɴꜱᴇ**  ☞ [GitHub repository](https://github.com/kaleb13x)\n"
     pm_caption += "➾ **ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ** ☞ [SPIKE](https://github.com/kaleb13x)\n\n"
     pm_caption += f"➾ **ᴜᴘᴛɪᴍᴇ** ☞ {uptime}\n\n"
     pm_caption += f"➾ **ᴍʏ ᴍᴀsᴛᴇʀ** ☞ [{DEFAULTUSER}](tg://user?id={ghanti})\n"
