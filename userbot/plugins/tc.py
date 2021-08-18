@@ -7,7 +7,8 @@ import telethon.password as pwd_mod
 from telethon.tl import functions, types
 from userbot.utils import admin_cmd, sudo_cmd, edit_or_reply
 
-@borg.on(admin_cmd(pattern="tstm ?(.*)", allow_sudo=True))  # pylint:disable=E0602
+@bot.on(admin_cmd("tctm"))
+@bot.on(sudo_cmd("tctm", allow_sudo=True))  # pylint:disable=E0602
 async def _(event):
     if event.fwd_from:
         return
