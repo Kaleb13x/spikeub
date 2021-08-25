@@ -21,7 +21,7 @@ async def _(event):
         return
     while True:
         DMY = time.strftime("%d.%m.%Y")
-        HM = time.strftime("%H:%M:%S")
+        HM = time.strftime("%H:%M")
         bio = f"{DMY} {BIO_MSG} {HM}"
         logger.info(bio)
         try:
@@ -50,7 +50,7 @@ async def _(event):
         return
     while True:
         DMY = time.strftime("%d.%m.%Y")
-        HM = time.strftime("%H:%M:%S")
+        HM = time.strftime("%H:%M")
         name = f"{HM} {DEFAULTUSER}"
         logger.info(name)
         try:
